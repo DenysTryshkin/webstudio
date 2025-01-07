@@ -145,9 +145,6 @@ button {
     letter-spacing: 0.02em;
 }
 
-.team-list {
-}
-
 .team-item {
     background-color: var(--white);
 }
@@ -167,7 +164,32 @@ button {
     letter-spacing: 0.02em;
 }
 
+/* portfolio */
+
+.portfolio-pre-title {
+    color: var(--dark);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-title {
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate)
+}
+
 /* footer */
+
 .footer {
     background-color: var(--dark);
 }
